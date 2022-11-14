@@ -2,7 +2,26 @@
 <html lang="en">
 
 
-     
+     <style>
+          video{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%)
+                    min-width: 100%;
+                    min-height: 100%;
+                    width: auto;
+                    height: auto;
+               }
+             h1{
+                 font-size: 160px;
+                 color: black;
+                 font-weight: 600;
+                 transitions: 0.5s;
+                 -webkit-text-stroke: 2px #fff;
+                 color: transparent;
+             }
+     </style>
     <head> 
          <title> MyFrogs.to </title>
     </head>
@@ -12,16 +31,7 @@
     <div class = "size">
           <video autoplay = "true" loop>
                <source src  = "video.mp4" type = "video/mp4">
-               video{
-                      position: absolute;
-                      top: 50%;
-                      left: 50%;
-                      transform: translate(-50%, -50%)
-                      min-width: 100%;
-                      min-height: 100%;
-                      width: auto;
-                      height: auto;
-                    }
+
           </video>
     </div>
      
@@ -30,14 +40,7 @@
             <font face =  "monospace">
                  MyFrogs
              </font>
-             h1{
-                  font-size: 160px;
-                 color: black;
-                 font-weight: 600;
-                 transitions: 0.5s;
-                 -webkit-text-stroke: 2px #fff;
-                 color: transparent;
-             }
+
         </h1>
     </div>
  
