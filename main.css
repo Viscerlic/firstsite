@@ -6,6 +6,26 @@ html {
   background-size: cover;
 }
 
+view {
+              position: relative;
+              height: 50vh;
+              text-align: center;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              z-index = 1;
+               
+                      font-family: 'Syncopate', sans-serif;
+                      color: black;
+                      text-transform: uppercase;
+                      letter-spacing: 3vw;
+                      line-height: 1.2;
+                      font-size: 3vw;
+                      text-align: center;
+                      z-index = 1;
+
+                  
+          }
 
 
 
