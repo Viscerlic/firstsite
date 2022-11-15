@@ -1,31 +1,12 @@
-.html { 
-  background: url(galaxy.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+body {
+	background: url(../images/bg-body.jpg) repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
 }
 
-.view {
-              position: relative;
-              height: 50vh;
-              text-align: center;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              z-index = 1;
-               
-                      font-family: 'Syncopate', sans-serif;
-                      color: red;
-                      text-transform: uppercase;
-                      letter-spacing: 3vw;
-                      line-height: 1.2;
-                      font-size: 3vw;
-                      text-align: center;
-                      z-index = 1;
 
-                  
-          }
 
 
 
